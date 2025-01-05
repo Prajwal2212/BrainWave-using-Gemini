@@ -10,16 +10,15 @@ cd BrainWave-using-Gemini
 
 ## Dependencies:
 
-1. The installation commands suggest the use of:\
-2. youtube_transcript_api for fetching video transcripts.\
-3. streamlit for creating an interactive web interface.\
-4. pyngrok for hosting the tool on a temporary server.\
-5. reportlab and texlive for generating formatted PDF reports, likely for summaries or question sets.
+1. youtube_transcript_api for fetching video transcripts.
+2. streamlit for creating an interactive web interface.
+3. pyngrok for hosting the tool on a temporary server.
+4. reportlab and texlive for generating formatted PDF reports, likely for summaries or question sets.
 
 ## Functionality:
 
-- It uses the YouTube Transcript API to extract transcripts from educational YouTube videos.\
-- The Gemini API is likely leveraged to process the transcripts, summarizing the content and generating relevant educational questions.\
+- It uses the YouTube Transcript API to extract transcripts from educational YouTube videos.
+- The Gemini API is likely leveraged to process the transcripts, summarizing the content and generating relevant educational questions.
 - Streamlit provides a user-friendly interface for users to input YouTube URLs and access the results.
 
 ## Purpose:
@@ -28,7 +27,7 @@ The tool aims to aid in education by converting video content into easily digest
 
 ## User Workflow:
 
-- Input a YouTube URL.\
-- The tool fetches the video transcript.\
-- It generates summaries and questions, potentially categorized by difficulty or type (e.g., multiple choice, short answer).\
+- Input a YouTube URL.
+- The tool fetches the video transcript.
+- It generates summaries and questions, potentially categorized by difficulty or type (e.g., multiple choice, short answer).
 - Outputs are displayed on the web interface and possibly exported as PDFs.
